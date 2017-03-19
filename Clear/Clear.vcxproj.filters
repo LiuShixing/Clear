@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d57df374-828d-4c72-a19b-df1ac3476964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{651ee372-1ba7-442f-b1e2-e17c2dab753a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshModel">
+      <UniqueIdentifier>{d8229998-90ef-4e8f-be85-3ec604c5f324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyUtil">
+      <UniqueIdentifier>{bf85700c-1309-4eea-88e6-93e14e373053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qianmo">
+      <UniqueIdentifier>{1ea3821f-31f9-4e00-affa-57e39cd6ac76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkinnedData">
+      <UniqueIdentifier>{efd921ba-d207-4aa9-905f-1a698ba13b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{8ce2e893-93cb-499e-8a77-353ba2450498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{8926f431-6789-497d-b8f2-d12fd2ca6e75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Effect.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Geometry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GlobleVariable.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\xnacollision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel\LoadM3d.cpp">
+      <Filter>MeshModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel\MeshGeometry.cpp">
+      <Filter>MeshModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel\SkinnedModel.cpp">
+      <Filter>MeshModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel\TextureMgr.cpp">
+      <Filter>MeshModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil\MyUtil.cpp">
+      <Filter>MyUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Qianmo\DirectInputClass.cpp">
+      <Filter>Qianmo</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedData\SkinnedData.cpp">
+      <Filter>SkinnedData</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\AnimateEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\BasicEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Leona.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel\BasicModel.cpp">
+      <Filter>MeshModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodStrip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\GameSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dx11effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Geometry.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GlobleVariable.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\xnacollision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel\LoadM3d.h">
+      <Filter>MeshModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel\MeshGeometry.h">
+      <Filter>MeshModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel\SkinnedModel.h">
+      <Filter>MeshModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel\TextureMgr.h">
+      <Filter>MeshModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil\MyUtil.h">
+      <Filter>MyUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Qianmo\D3DUtil.h">
+      <Filter>Qianmo</Filter>
+    </ClInclude>
+    <ClInclude Include="Qianmo\DirectInputClass.h">
+      <Filter>Qianmo</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedData\SkinnedData.h">
+      <Filter>SkinnedData</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\AnimateEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\BasicEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Leona.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel\BasicModel.h">
+      <Filter>MeshModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="C2DBoxCollider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodStrip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\GameSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Animate.hlsl">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Basic.hlsl">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Light.hlsl">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Sky.hlsl">
+      <Filter>HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
